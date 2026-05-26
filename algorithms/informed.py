@@ -72,3 +72,4 @@ def solve_best_first(start_board, goal_board):
             heapq.heappush(open_set, neighbor)
             
     return None, nodes_expanded, time.time() - start_time
+# Bổ sung đánh giá chi phí f = g + h
