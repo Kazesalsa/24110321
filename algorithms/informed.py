@@ -73,3 +73,4 @@ def solve_best_first(start_board, goal_board):
             
     return None, nodes_expanded, time.time() - start_time
 # Bổ sung đánh giá chi phí f = g + h
+# Tạo và tinh chỉnh hàm Heuristic
