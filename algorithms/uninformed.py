@@ -75,3 +75,4 @@ def solve_iddfs(start_board, goal_board, max_depth=30):
             
     return None, total_nodes, time.time() - start_time
 # Cấu hình Depth Limit cho DFS
+# Bổ sung thuật toán IDDFS
