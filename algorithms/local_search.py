@@ -104,3 +104,4 @@ def solve_local_beam(start_board, goal_board, k=3):
         beam = next_beam[:k]
         
     return None, nodes_expanded, time.time() - start_time
+# Bổ sung cơ chế tản nhiệt độ (Cooling Schedule)
