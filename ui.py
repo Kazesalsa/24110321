@@ -1,3 +1,4 @@
+# Tinh chỉnh giao diện hiển thị
 import tkinter as tk
 from tkinter import messagebox
 import random
